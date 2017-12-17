@@ -7,30 +7,35 @@ h1{
   z-index: 1;
   font-size: 50px;
   font-family: 'Spectral SC', serif;
-  margin-top: 5%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 5%;
 }
 h2{
   color: #FFF;
   z-index: 1;
   position: absolute;
   font-family: 'Spectral SC', serif;
-  margin-top: 10%;
-  margin-left: 3%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 15%;
 }
 input{
   z-index: 1;
   position: absolute;
-  margin-top: 15%;
-  margin-left: 2%;
   width: 350px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 25%;
 }
 button{
   z-index: 1;
   position: absolute;
-  margin-top: 20%;
-  margin-left: 4.5%;
   width: 200px;
   height: 75px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 35%;
 }
 .homepage-hero-module {
     border-right: none;
