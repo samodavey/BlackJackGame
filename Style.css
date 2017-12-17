@@ -80,15 +80,13 @@ button{
     width: 100%;
 }
 
-#chosenName{
-  margin-left: 40%;
-}
 #table{
   position: relative;
   border: thick solid #660;
   background-color: #280;
-  width: 579px;
+  width: 600px;
   height:500px;
-  margin-top: 15%;
-  margin-left: 37%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
 }
