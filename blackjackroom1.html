@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>BlackJack Game</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <!--Font Awesome Icons link-->
+    <!--<link rel="stylesheet" href="C:\Users\Sam\Desktop\Invisible Victorian\Font-Awesome\font-awesome-4.7.0\css\font-awesome.min.css">-->
+  </head>
+  <body onload="getPlayer()">
+    <div class="homepage-hero-module">
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="Media Files\Manhatten-Night.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <h1 id="chosenName"></h1>
+        <!--<div id="table">
+          <div id="dealer1" style="position: absolute; left: 50px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="dealer2" style="position: absolute; left: 150px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="dealer3" style="position: absolute; left: 250px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="dealer4" style="position: absolute; left: 350px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="dealer5" style="position: absolute; left: 450px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+
+          <div id="player1" style="position: absolute; left: 50px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="player2" style="position: absolute; left: 150px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="player3" style="position: absolute; left: 250px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="player4" style="position: absolute; left: 350px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+          <div id="player5" style="position: absolute; left: 450px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+
+        </div>-->
+
+        <div style="z-index:1; position:absolute; right:50%; top:15%;">
+            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150"/>
+            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150"/>
+        </div>
+
+        <div style="z-index:1; position:absolute; right:50%; top:45%;">
+            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150" />
+            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150" />
+        </div>
+
+        <button style="top:75%; left: 40% !important;" onclick="deal();">Deal</button>
+        <button style="top:75%; left: 60%;">Stand</button>
+
+    </div>
+</div>
+  </body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/472caf3329.js"></script>
+  <script type="text/javascript" src="mainPage.js"></script>
+  <script type="text/javascript" src="BlackJackGame.js"></script>
+</html>
