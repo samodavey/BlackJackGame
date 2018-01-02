@@ -1,10 +1,5 @@
 ﻿$(document).ready(function () {
 
-    /*  New Additons for end
-        Added more output for winning/losing to the 'hand' object
-        Added a restart button click to re-deal
-    */
-
 
     var used_cards = new Array();
 
@@ -69,7 +64,10 @@
         new card('King', 'Spades', 10)
     ];
 
-    var hand = {
+    var playerBalance = 1000;
+    var betAmount;
+
+    var playerHand = {
         cards: new Array(),
         current_total: 0,
 
@@ -79,26 +77,66 @@
                 var c = this.cards[i];
                 this.current_total += c.value;
             }
-            $("#hdrTotal").html("Total: " + this.current_total);
+            $("#handTotal").html("Player Total: " + this.current_total);
 
             if (this.current_total > 21) {
-                $("#btnStick").trigger("click");
-                $("#imgResult").attr('src', 'images/x2.png');
-                $("#hdrResult").html("BUST!")
-                    .attr('class', 'lose');
+                $("#btnHit").toggle();
+                $("#btnStand").toggle();
+                $("#btnRestart").toggle();
+                $("#handTotal").html("Player Total: " + this.current_total);
+                $('#gameResult').html("Player Busts!");
+
             } else if (this.current_total == 21) {
-                $("#btnStick").trigger("click");
-                $("#imgResult").attr('src', 'images/check.png');
-                $("#hdrResult").html("BlackJack!")
-                    .attr('class', 'win');
-            } else if (this.current_total <= 21 && this.cards.length == 5) {
-                $("#btnStick").trigger("click");
-                $("#imgResult").attr('src', 'images/check.png');
-                $("#hdrResult").html("BlackJack - 5 card trick!")
-                    .attr('class', 'win');
-            } else { }
+
+                $("#btnHit").toggle();
+                $("#btnStand").toggle();
+                $("#btnRestart").toggle();
+                $("#handTotal").html("Player Total: " + this.current_total);
+
+                $('#gameResult').html("Player Blackjack!");
+
+                playerBalance = playerBalance + (betAmount * 2.5);
+                $("#playerBalance").html("£" + playerBalance);
+    
+            }
         }
     };
+
+    var dealerHand = {
+        cards: new Array(),
+        current_total: 0,
+
+        sumCardTotal: function () {
+            this.current_total = 0;
+            for (var i = 0; i < this.cards.length; i++) {
+                var c = this.cards[i];
+                this.current_total += c.value;
+            }
+            $("#dealerHandTotal").html("Dealer Total: " + this.current_total);
+            if (this.current_total >= 17 && this.current_total <= 21 && this.current_total > playerHand.current_total)
+            {
+                $("#dealerHandTotal").html("Dealer Total: " + this.current_total);
+                $('#gameResult').html("Dealer Wins!");
+            }
+            else if (this.current_total >= 17 && this.current_total < 21 && this.current_total < playerHand.current_total){
+                $("#dealerHandTotal").html("Dealer Total: " + this.current_total );
+                $('#gameResult').html("Dealer Loses!\n Player Wins!");
+                playerBalance = playerBalance + (betAmount * 2);
+                $("#playerBalance").html("£" + playerBalance);
+            }
+            else if (this.current_total > 21) {
+                $("#dealerHandTotal").html("Dealer Total: " + this.current_total);
+                $('#gameResult').html("Dealer Busts!");
+                playerBalance = playerBalance + (betAmount * 2);
+                $("#playerBalance").html("£" + playerBalance);
+  
+            } else if (this.current_total == 21) {
+                $("#dealerHandTotal").html("Dealer Total: " + this.current_total);
+                $('#gameResult').html("Dealer Blackjack!");
+            } 
+        }
+    };
+
 
     function getRandom(num) {
         var my_num = Math.floor(Math.random() * num);
@@ -111,6 +149,58 @@
         }
     }
 
+    function dealerHit() {
+        var good_card = false;
+        var firstCardCount = 0;
+        if ($("#btnStand:visible") && firstCardCount < 1) {
+            firstCardCount++;
+            do {
+                var index = getRandom(52);
+                if (!$.inArray(index, used_cards) > -1) {
+                    good_card = true;
+                    var c = deck[index];
+                    used_cards[used_cards.length] = index;
+                    dealerHand.cards[dealerHand.cards.length] = c;
+
+
+                    var $d = $("<div style=\"float:left; padding-left:5px;\">");
+                    $d.appendTo("#dealerHand");
+
+                    $("<img>").attr('alt', c.name + ' of ' + c.suit)
+                        .attr('title', c.name + ' of ' + c.suit)
+                        .attr('src', 'Media Files/Cards/' + c.suit + '/' + c.name + '.png')
+                        .appendTo($d);
+                }
+            } while (!good_card);
+            good_card = false;
+            dealerHand.sumCardTotal(); 
+
+        } else if ($("#btnStand:hidden") && firstCardCount == 1)
+        {
+                do {
+                    var index = getRandom(52);
+                    if (!$.inArray(index, used_cards) > -1) {
+                        good_card = true;
+                        var c = deck[index];
+                        used_cards[used_cards.length] = index;
+                        dealerHand.cards[dealerHand.cards.length] = c;
+
+
+                        var $d = $("<div style=\"float:left; padding-left:5px;\">");
+                        $d.appendTo("#dealerHand");
+
+                        $("<img>").attr('alt', c.name + ' of ' + c.suit)
+                            .attr('title', c.name + ' of ' + c.suit)
+                            .attr('src', 'Media Files/Cards/' + c.suit + '/' + c.name + '.png')
+                            .appendTo($d);
+                    }
+                } while (!good_card);
+                good_card = false;
+                dealerHand.sumCardTotal(); 
+        }
+            
+    }
+
     function hit() {
         var good_card = false;
         do {
@@ -119,61 +209,93 @@
                 good_card = true;
                 var c = deck[index];
                 used_cards[used_cards.length] = index;
-                hand.cards[hand.cards.length] = c;
+                playerHand.cards[playerHand.cards.length] = c;
 
-                var $d = $("<div>");
-                $d.addClass("current_hand")
-                    .appendTo("#my_hand");
 
-                $("<img>").attr('alt', c.name + ' of ' + c.suit)
-                    .attr('title', c.name + ' of ' + c.suit)
-                    .attr('src', 'images/cards/' + c.suit + '/' + c.name + '.jpg')
-                    .appendTo($d)
-                    .fadeOut('slow')
-                    .fadeIn('slow');
+                var $d = $("<div style=\"float:left; padding-left:5px;\">");
+                $d.appendTo("#playerHand");
+
+                    $("<img>").attr('alt', c.name + ' of ' + c.suit)
+                        .attr('title', c.name + ' of ' + c.suit)
+                        .attr('src', 'Media Files/Cards/' + c.suit + '/' + c.name + '.png')
+                        .appendTo($d);
 
             }
         } while (!good_card);
         good_card = false;
-        hand.sumCardTotal();
+        playerHand.sumCardTotal();
     }
 
     $("#btnDeal").click(function () {
-        deal();
-        $(this).toggle();
-        $("#btnHit").toggle();
-        $("#btnStick").toggle();
+        if (betAmount > 0) {
+            deal();
+            dealerHit();
+            $(this).toggle();
+            $("#btnHit").toggle();
+            $("#btnStand").toggle();
+        } else {
+            alert("You must place a bet in order to play!");
+        }
+        
     });
 
     $("#btnHit").click(function () {
         hit();
     });
 
-    function end() {
+    $("#btnStand").click(function () {
+        //$("#hdrResult").html('Stick!')
+        //    .attr('class', 'win');
+        //$("#result").toggle();
+        //end();
         $("#btnHit").toggle();
-        $("#btnStick").toggle();
+        $("#btnStand").toggle();
         $("#btnRestart").toggle();
-    }
 
-    $("#btnStick").click(function () {
-        $("#hdrResult").html('Stick!')
-            .attr('class', 'win');
-        $("#result").toggle();
-        end();
+        while (dealerHand.current_total < 17) {
+            dealerHit();
+        }
+
     });
 
     $("#btnRestart").click(function () {
-        $("#result").toggle();
-        $(this).toggle();
-        $("#my_hand").empty();
-        $("#hdrResult").html('');
-        $("#imgResult").attr('src', 'images/check.png');
+            $(this).toggle();
+            $("#btnDeal").toggle();
+            $("#btnBet").toggle();
+            $("#playerHand").empty();
+            $("#dealerHand").empty();
+            $("#dealerHandTotal").html("Dealer Total:");
+            $("#handTotal").html("Player Total:");
+            $("#gameResult").html("");
+            $("#currentBet").html("");
+            //$("#hdrResult").html('');
+            //$("#imgResult").attr('src', 'images/check.png');
+            
+            used_cards.length = 0;
+            playerHand.cards.length = 0;
+            playerHand.current_total = 0;
+            dealerHand.cards.length = 0;
+            dealerHand.current_total = 0;
 
-        used_cards.length = 0;
-        hand.cards.length = 0;
-        hand.current_total = 0;
+            betAmount = 0;
+    });
 
-        $("#btnDeal").toggle()
-            .trigger('click');
+    $("#btnBet").click(function () {
+
+        betAmount = document.getElementById("bettingAmount").value;
+        var betCheck = document.getElementById("currentBet");
+        if (betAmount > 0) {
+            $(this).toggle();
+            playerBalance = playerBalance - betAmount;
+            $("#currentBet").html("Current Bet: £" + betAmount);
+            $("#playerBalance").html("£" + playerBalance);
+            $('#bettingAmount').val("");            
+            //if (betAmount != "") {
+            //    betAmount++;
+            //    $("#currentBet").html("Current Bet: £" + betAmount);
+            //$("#playerBalance").html("£" + playerBalance);
+            //}
+        }
+
     });
 });

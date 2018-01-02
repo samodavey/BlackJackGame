@@ -80,13 +80,27 @@ button{
     width: 100%;
 }
 
-#table{
-  position: relative;
-  border: thick solid #660;
-  background-color: #280;
-  width: 600px;
-  height:500px;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
+
+#playerHand {
+    clear: both;
+    height: 250px;
+    width: 1000px;
+}
+
+#dealerHand {
+    clear: both;
+    height: 250px;
+    width: 1000px;
+}
+
+#btnStand{
+    display:none;
+}
+
+#btnHit{
+    display:none;
+}
+
+#btnRestart{
+    display:none;
 }

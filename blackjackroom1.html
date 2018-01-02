@@ -29,34 +29,29 @@
             <source src="Media Files\Manhatten-Night.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
         <h1 id="chosenName"></h1>
-        <!--<div id="table">
-          <div id="dealer1" style="position: absolute; left: 50px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="dealer2" style="position: absolute; left: 150px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="dealer3" style="position: absolute; left: 250px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="dealer4" style="position: absolute; left: 350px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="dealer5" style="position: absolute; left: 450px; top: 50px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
 
-          <div id="player1" style="position: absolute; left: 50px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="player2" style="position: absolute; left: 150px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="player3" style="position: absolute; left: 250px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="player4" style="position: absolute; left: 350px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
-          <div id="player5" style="position: absolute; left: 450px; top: 250px; border: 2px solid rgb(102, 102, 0); background-color: rgb(102, 102, 0); width: 79px; height: 123px;"></div>
+        <div id="dealerHand" style="z-index:1; position:absolute; right:15%; top:15%;"></div>
 
-        </div>-->
+        <h2 id="dealerHandTotal" style="top:20%; left:20%;">Dealer Total:</h2>
 
-        <div style="z-index:1; position:absolute; right:50%; top:15%;">
-            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150"/>
-            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150"/>
-        </div>
+        <div id="playerHand" style="z-index:1; position:absolute; right:15%; top:45%;"></div>
 
-        <div style="z-index:1; position:absolute; right:50%; top:45%;">
-            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150" />
-            <img src="Media Files/Cards/card.png" alt="Card" height="200" width="150" />
-        </div>
+        <h2 id="handTotal" style="top:50%; left:20%;">Player Total:</h2>
 
-        <button style="top:75%; left: 40% !important;" onclick="deal();">Deal</button>
-        <button style="top:75%; left: 60%;">Stand</button>
+        <button id="btnDeal" type="submit" style="top:75%; left: 40%;">Deal</button>
+        <button id="btnHit" style="top:75%; left: 40%;">Hit</button>
+        <button id="btnStand" style="top:75%; left: 60%;">Stand</button>
 
+        <button id="btnRestart" type="submit" style="top:75%; left: 40%;">Restart</button>
+
+        <h2 id="gameResult" style="top:70%; left:20%;"></h2>
+
+        <h2 style="top:20%; left:85%;">Bank Balance: </h2>
+        <h2 id="playerBalance" style="top:25%; left:85%;">£1000</h2>
+
+        <input id="bettingAmount" type="number" name="bettingAmount" style="top:35%; left:85%;"></input>
+        <button id="btnBet" style="top:45%; left:85%;">Bet</button>
+        <h2 id="currentBet" style="top:55%; left:85%;"></h2>
     </div>
 </div>
   </body>
