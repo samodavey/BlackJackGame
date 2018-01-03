@@ -244,10 +244,6 @@
     });
 
     $("#btnStand").click(function () {
-        //$("#hdrResult").html('Stick!')
-        //    .attr('class', 'win');
-        //$("#result").toggle();
-        //end();
         $("#btnHit").toggle();
         $("#btnStand").toggle();
         $("#btnRestart").toggle();
@@ -268,8 +264,6 @@
             $("#handTotal").html("Player Total:");
             $("#gameResult").html("");
             $("#currentBet").html("");
-            //$("#hdrResult").html('');
-            //$("#imgResult").attr('src', 'images/check.png');
             
             used_cards.length = 0;
             playerHand.cards.length = 0;
@@ -290,11 +284,6 @@
             $("#currentBet").html("Current Bet: £" + betAmount);
             $("#playerBalance").html("£" + playerBalance);
             $('#bettingAmount').val("");            
-            //if (betAmount != "") {
-            //    betAmount++;
-            //    $("#currentBet").html("Current Bet: £" + betAmount);
-            //$("#playerBalance").html("£" + playerBalance);
-            //}
         }
 
     });
