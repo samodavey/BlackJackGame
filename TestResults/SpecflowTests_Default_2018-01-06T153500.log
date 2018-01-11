@@ -1,0 +1,63 @@
+﻿2018-01-06T15:29:32.3462471+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:29:32.4617492+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:29:32.4627483+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:29:32.4632499+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:29:39.5736220+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:29:39.5751260+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:29:46.5418347+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T152932.log
+2018-01-06T15:29:46.5543348+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T15:34:59.9988735+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:35:00.0238653+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:35:00.0248655+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:35:00.0253653+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:35:14.0365635+00:00;Thread#16;Info;Discovering target: Default
+2018-01-06T15:35:14.0385652+00:00;Thread#16;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTests/Default - 
+#1: Default - 
+#2: SpecflowTests - 
+#3: BlackjackGame - 
+#8: MainPage - 
+#4: I am able to make a bet - TestAssembly:SpecflowTests/Feature:BlackjackGame/Scenario:I+am+able+to+make+a+bet
+#9: Enter Name and Join a room - TestAssembly:SpecflowTests/Feature:MainPage/Scenario:Enter+Name+and+Join+a+room
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Sam\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as InitializationFailed within 0.1249979 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #9/0 is finished on thread #0 as InitializationFailed within 0.0134979 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 2
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 2

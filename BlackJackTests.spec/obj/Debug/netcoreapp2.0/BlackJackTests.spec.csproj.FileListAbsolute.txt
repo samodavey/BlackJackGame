@@ -1,0 +1,15 @@
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\BlackJackTests.spec.deps.json
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\BlackJackTests.spec.runtimeconfig.json
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\BlackJackTests.spec.runtimeconfig.dev.json
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\BlackJackTests.spec.dll
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\BlackJackTests.spec.pdb
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\obj\Debug\netcoreapp2.0\BlackJackTests.spec.csprojResolveAssemblyReference.cache
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\obj\Debug\netcoreapp2.0\BlackJackTests.spec.csproj.CoreCompileInputs.cache
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\obj\Debug\netcoreapp2.0\BlackJackTests.spec.AssemblyInfoInputs.cache
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\obj\Debug\netcoreapp2.0\BlackJackTests.spec.AssemblyInfo.cs
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\obj\Debug\netcoreapp2.0\BlackJackTests.spec.dll
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\obj\Debug\netcoreapp2.0\BlackJackTests.spec.pdb
+C:\Users\Sam\source\repos\BlackJackGame\BlackJackTests.spec\bin\Debug\netcoreapp2.0\BlackJackTests.spec.dll.config

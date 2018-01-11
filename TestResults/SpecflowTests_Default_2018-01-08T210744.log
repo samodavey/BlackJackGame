@@ -1,0 +1,150 @@
+﻿2018-01-08T21:07:44.6867858+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-08T21:07:44.7827874+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-08T21:07:44.7832878+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-08T21:07:44.7837885+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-08T21:07:53.8977231+00:00;Thread#7;Info;Discovering target: Default
+2018-01-08T21:07:53.8987237+00:00;Thread#7;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTests/Default - 
+#1: Default - 
+#2: SpecflowTests - 
+#3: BlackjackGame - 
+#8: MainPage - 
+#4: I am able to make a bet - TestAssembly:SpecflowTests/Feature:BlackjackGame/Scenario:I+am+able+to+make+a+bet
+#5: I am able to deal a hand - TestAssembly:SpecflowTests/Feature:BlackjackGame/Scenario:I+am+able+to+deal+a+hand
+#6: I am able to hit for another card - TestAssembly:SpecflowTests/Feature:BlackjackGame/Scenario:I+am+able+to+hit+for+another+card
+#7: I am able to stand - TestAssembly:SpecflowTests/Feature:BlackjackGame/Scenario:I+am+able+to+stand
+#9: Enter Name and Join a room - TestAssembly:SpecflowTests/Feature:MainPage/Scenario:Enter+Name+and+Join+a+room
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Sam\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (5.4s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName() (0.1s)
+Thread#0:B:When I join a room
+Thread#0:T:done: MainPageSteps.WhenIJoinARoom() (0.3s)
+Thread#0:B:And I make a bet of 50 pounds
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIMakeABetOfPounds(50) (0.3s)
+Thread#0:B:Then I can see my current bet of 50 pounds
+Thread#0:T:Pass
+Thread#0:T:done: MainPageSteps.ThenICanSeeMyCurrentBetOfPounds(50) (0.1s)
+Thread#0:B:Then I close the browser
+Thread#0:T:done: MainPageSteps.ThenICloseTheBrowser() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 6.3757885 seconds
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (10.8s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName() (0.1s)
+Thread#0:B:When I join a room
+Thread#0:T:done: MainPageSteps.WhenIJoinARoom() (0.6s)
+Thread#0:B:And I make a bet of 50 pounds
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIMakeABetOfPounds(50) (0.1s)
+Thread#0:B:And I can deal a hand
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenICanDealAHand() (0.1s)
+Thread#0:B:Then I can see my cards have been dealt
+Thread#0:T:Pass
+Thread#0:T:done: MainPageSteps.ThenICanSeeMyCardsHaveBeenDealt() (0.1s)
+Thread#0:B:Then I close the browser
+Thread#0:T:done: MainPageSteps.ThenICloseTheBrowser() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 11.8526501 seconds
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (7.9s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName() (0.1s)
+Thread#0:B:When I join a room
+Thread#0:T:done: MainPageSteps.WhenIJoinARoom() (24.0s)
+Thread#0:B:And I make a bet of 50 pounds
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIMakeABetOfPounds(50) (0.1s)
+Thread#0:B:And I can deal a hand
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenICanDealAHand() (0.1s)
+Thread#0:B:Then I hit for another card
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.ThenIHitForAnotherCard() (0.1s)
+Thread#0:B:Then I close the browser
+Thread#0:T:done: MainPageSteps.ThenICloseTheBrowser() (0.1s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 32.3151601 seconds
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (27.8s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName() (0.1s)
+Thread#0:B:When I join a room
+Thread#0:T:done: MainPageSteps.WhenIJoinARoom() (8.1s)
+Thread#0:B:And I make a bet of 50 pounds
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIMakeABetOfPounds(50) (0.2s)
+Thread#0:B:And I can deal a hand
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenICanDealAHand() (0.1s)
+Thread#0:B:Then I stand
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.ThenIStand() (0.1s)
+Thread#0:B:Then I close the browser
+Thread#0:T:done: MainPageSteps.ThenICloseTheBrowser() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread#0: Test #7/0 is finished on thread #0 as Succeeded within 36.3276431 seconds
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (10.1s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName()

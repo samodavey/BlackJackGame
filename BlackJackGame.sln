@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "BlackJackGame", "H:\Uni Final Year\SOFT352\Assignment\BlackJackGame\", "{623662C2-1323-41D7-8187-8FC3EBD731AE}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54249"
+		Debug.AspNetCompiler.PhysicalPath = "H:\Uni Final Year\SOFT352\Assignment\BlackJackGame\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54249\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54249"
+		Release.AspNetCompiler.PhysicalPath = "H:\Uni Final Year\SOFT352\Assignment\BlackJackGame\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54249\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54249"
+		SlnRelativePath = "H:\Uni Final Year\SOFT352\Assignment\BlackJackGame\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpecflowTests", "SpecflowTests\SpecflowTests.csproj", "{50CBC56A-42B4-4ED0-929E-1AD166E79EDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{623662C2-1323-41D7-8187-8FC3EBD731AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623662C2-1323-41D7-8187-8FC3EBD731AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623662C2-1323-41D7-8187-8FC3EBD731AE}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{623662C2-1323-41D7-8187-8FC3EBD731AE}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{50CBC56A-42B4-4ED0-929E-1AD166E79EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50CBC56A-42B4-4ED0-929E-1AD166E79EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50CBC56A-42B4-4ED0-929E-1AD166E79EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50CBC56A-42B4-4ED0-929E-1AD166E79EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29D85537-3BF6-4384-AF2F-52CF9F2F9AFB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,52 @@
+﻿2018-01-06T14:31:24.0069157+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T14:31:24.1509140+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T14:31:24.1524138+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T14:31:24.1534135+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T14:31:30.3708468+00:00;Thread#12;Info;Discovering target: Default
+2018-01-06T14:31:30.3723466+00:00;Thread#12;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTests/Default - 
+#1: Default - 
+#2: SpecflowTests - 
+#8: MainPage - 
+#9: Enter Name and Join a room - TestAssembly:SpecflowTests/Feature:MainPage/Scenario:Enter+Name+and+Join+a+room
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Sam\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (3.6s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName() (0.1s)
+Thread#0:B:When I join a room
+Thread#0:T:done: MainPageSteps.WhenIJoinARoom() (0.2s)
+Thread#0:B:Then I see my player name on the main game
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.ThenISeeMyPlayerNameOnTheMainGame() (75.9s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #9/0 is finished on thread #0 as Succeeded within 80.9778667 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

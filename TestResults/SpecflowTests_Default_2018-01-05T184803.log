@@ -1,0 +1,69 @@
+﻿2018-01-05T17:28:28.3057489+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-05T17:28:28.4117478+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-05T17:28:28.4127511+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-05T17:28:28.4127511+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-05T17:28:39.5191231+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-05T17:28:39.5201236+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-05T17:28:50.2825340+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-05T172828.log
+2018-01-05T17:28:50.2835355+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-05T18:47:18.8976001+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-05T18:47:18.9195995+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-05T18:47:18.9206004+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-05T18:47:18.9211002+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-05T18:47:28.9258232+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-05T18:47:28.9268225+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-05T18:47:34.9115760+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-05T184718.log
+2018-01-05T18:47:34.9125759+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-05T18:48:03.1537099+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-05T18:48:03.1677121+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-05T18:48:03.1687121+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-05T18:48:03.1692119+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-05T18:48:16.1735368+00:00;Thread#21;Info;Discovering target: Default
+2018-01-05T18:48:16.1755367+00:00;Thread#21;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTests/Default - 
+#1: Default - 
+#2: SpecflowTests - 
+#5: MainPage - 
+#6: Enter Name and Join a room - TestAssembly:SpecflowTests/Feature:MainPage/Scenario:Enter+Name+and+Join+a+room
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Sam\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (3.3s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName() (0.1s)
+Thread#0:B:When I join a room
+Thread#0:T:pending: MainPageSteps.WhenIJoinARoom()
+Thread#0:B:Then I see my player name on the main game
+Thread#0:T:skipped because of previous errors
+Thread#0:T:Pending: One or more step definitions are not implemented yet.
+Thread#0:T:  MainPageSteps.WhenIJoinARoom()
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/0 is finished on thread #0 as Pending within 3.5844412 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 0
+Ignored: 0
+Pending: 1
+Skipped: 0
+Failed: 0

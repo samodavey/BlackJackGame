@@ -1,0 +1,116 @@
+﻿2018-01-06T15:29:32.3462471+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:29:32.4617492+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:29:32.4627483+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:29:32.4632499+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:29:39.5736220+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:29:39.5751260+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:29:46.5418347+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T152932.log
+2018-01-06T15:29:46.5543348+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T15:34:59.9988735+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:35:00.0238653+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:35:00.0248655+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:35:00.0253653+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:35:14.0365635+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:35:14.0385652+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:35:15.2421392+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T153500.log
+2018-01-06T15:35:15.2431397+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T15:40:05.2774063+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:40:05.3019051+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:40:05.3024070+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:40:05.3034058+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:40:16.3068268+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:40:16.3078256+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:40:17.4978248+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T154005.log
+2018-01-06T15:40:17.4988268+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T15:42:07.8781291+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:42:07.9006280+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:42:07.9171297+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:42:07.9176298+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:42:18.9229475+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:42:18.9244493+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:42:20.1364915+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T154207.log
+2018-01-06T15:42:20.1374921+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T15:42:47.7631244+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:42:47.7856227+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:42:47.7866218+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:42:47.7871225+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:42:55.7918563+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:42:55.7938583+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:43:04.9288919+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T154247.log
+2018-01-06T15:43:04.9303917+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T15:46:03.3764241+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:46:03.4034254+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:46:03.4044247+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:46:03.4049246+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:46:16.4100372+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:46:16.4115387+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:46:30.2916229+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T154603.log
+2018-01-06T15:46:30.2926243+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T15:51:04.9719161+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T15:51:04.9959154+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T15:51:04.9969150+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:51:04.9979207+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T15:51:11.0083311+00:00;VSTestExecutionThread;Info;Discovering target: Default
+2018-01-06T15:51:11.0093311+00:00;VSTestExecutionThread;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T15:51:20.4963910+00:00;VSTestExecutionThread;Info;Log file: file:///C:\Users\Sam\source\repos\BlackJackGame\TestResults\SpecflowTests_Default_2018-01-06T155104.log
+2018-01-06T15:51:20.4973916+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution finished
+2018-01-06T17:16:58.1879785+00:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-01-06T17:16:58.2124779+00:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-01-06T17:16:58.2134778+00:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+2018-01-06T17:16:58.2139783+00:00;VSTestExecutionThread;Info;Profile: Default
+2018-01-06T17:17:04.2189018+00:00;Thread#5;Info;Discovering target: Default
+2018-01-06T17:17:04.2204039+00:00;Thread#5;Info;Discovering tests from assembly: C:\Users\Sam\source\repos\BlackJackGame\SpecflowTests\bin\Debug\SpecflowTests.dll
+Appdomain Disposed
+Test Suite Dump
+#0: SpecflowTests/Default - 
+#1: Default - 
+#2: SpecflowTests - 
+#3: BlackjackGame - 
+#5: I am able to deal a hand - TestAssembly:SpecflowTests/Feature:BlackjackGame/Scenario:I+am+able+to+deal+a+hand
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #5 from normal test queue 
+Thread#0:Scheduler: considering testitem #5 for thread 0
+Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #5 for thread 0
+Thread#0:Scheduler: Test #5 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for SpecflowTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\Sam\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.6.3\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #5/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given I have loaded the mainpage
+Thread#0:T:done: MainPageSteps.GivenIHaveLoadedTheMainpage() (3.5s)
+Thread#0:B:When I enter a player name
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIEnterAPlayerName() (0.1s)
+Thread#0:B:When I join a room
+Thread#0:T:done: MainPageSteps.WhenIJoinARoom() (0.4s)
+Thread#0:B:And I make a bet of 50 pounds
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenIMakeABetOfPounds(50) (0.1s)
+Thread#0:B:And I can deal a hand
+Thread#0:T:Passed
+Thread#0:T:done: MainPageSteps.WhenICanDealAHand() (0.1s)
+Thread#0:B:Then I can see my cards have been dealt
+Thread#0:T:Pass
+Thread#0:T:done: MainPageSteps.ThenICanSeeMyCardsHaveBeenDealt() (0.1s)
+Thread#0:B:Then I close the browser
+Thread#0:T:done: MainPageSteps.ThenICloseTheBrowser() (0.0s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #5/0 is finished on thread #0 as Succeeded within 4.420087 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
